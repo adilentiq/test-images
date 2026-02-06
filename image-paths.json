@@ -813,6 +813,10 @@
       "url": "https://raw.githubusercontent.com/adilentiq/test-images/refs/heads/main/controlnet_preprocess/turtle.png"
     },
     {
+      "path": "image/119813695.jpeg",
+      "url": "https://raw.githubusercontent.com/adilentiq/test-images/refs/heads/main/image/119813695.jpeg"
+    },
+    {
       "path": "image/aspect_ratio_1200_400_3_1.jpeg",
       "url": "https://raw.githubusercontent.com/adilentiq/test-images/refs/heads/main/image/aspect_ratio_1200_400_3_1.jpeg"
     },
@@ -839,6 +843,10 @@
     {
       "path": "image/campfire.jpg",
       "url": "https://raw.githubusercontent.com/adilentiq/test-images/refs/heads/main/image/campfire.jpg"
+    },
+    {
+      "path": "image/car.jpeg",
+      "url": "https://raw.githubusercontent.com/adilentiq/test-images/refs/heads/main/image/car.jpeg"
     },
     {
       "path": "image/cat1.jpg",
@@ -913,6 +921,26 @@
       "url": "https://raw.githubusercontent.com/adilentiq/test-images/refs/heads/main/image/flour_package_mask.png"
     },
     {
+      "path": "image/girl_and_cat.jpeg",
+      "url": "https://raw.githubusercontent.com/adilentiq/test-images/refs/heads/main/image/girl_and_cat.jpeg"
+    },
+    {
+      "path": "image/girl_blonde.png",
+      "url": "https://raw.githubusercontent.com/adilentiq/test-images/refs/heads/main/image/girl_blonde.png"
+    },
+    {
+      "path": "image/girl_glasses.jpeg",
+      "url": "https://raw.githubusercontent.com/adilentiq/test-images/refs/heads/main/image/girl_glasses.jpeg"
+    },
+    {
+      "path": "image/girl_hair.jpeg",
+      "url": "https://raw.githubusercontent.com/adilentiq/test-images/refs/heads/main/image/girl_hair.jpeg"
+    },
+    {
+      "path": "image/girl_hair2.png",
+      "url": "https://raw.githubusercontent.com/adilentiq/test-images/refs/heads/main/image/girl_hair2.png"
+    },
+    {
       "path": "image/hat.png",
       "url": "https://raw.githubusercontent.com/adilentiq/test-images/refs/heads/main/image/hat.png"
     },
@@ -981,6 +1009,14 @@
       "url": "https://raw.githubusercontent.com/adilentiq/test-images/refs/heads/main/image/image_323_3571.jpg"
     },
     {
+      "path": "image/image_low_quality.webp",
+      "url": "https://raw.githubusercontent.com/adilentiq/test-images/refs/heads/main/image/image_low_quality.webp"
+    },
+    {
+      "path": "image/image_with_text.jpeg",
+      "url": "https://raw.githubusercontent.com/adilentiq/test-images/refs/heads/main/image/image_with_text.jpeg"
+    },
+    {
       "path": "image/intellectual_property/brands.webp",
       "url": "https://raw.githubusercontent.com/adilentiq/test-images/refs/heads/main/image/intellectual_property/brands.webp"
     },
@@ -991,6 +1027,14 @@
     {
       "path": "image/jay-soundo.jpg",
       "url": "https://raw.githubusercontent.com/adilentiq/test-images/refs/heads/main/image/jay-soundo.jpg"
+    },
+    {
+      "path": "image/man_horse.jpeg",
+      "url": "https://raw.githubusercontent.com/adilentiq/test-images/refs/heads/main/image/man_horse.jpeg"
+    },
+    {
+      "path": "image/man_with_text.jpeg",
+      "url": "https://raw.githubusercontent.com/adilentiq/test-images/refs/heads/main/image/man_with_text.jpeg"
     },
     {
       "path": "image/model.png",
@@ -1077,6 +1121,10 @@
       "url": "https://raw.githubusercontent.com/adilentiq/test-images/refs/heads/main/image/objects/soda_recipient.jpg"
     },
     {
+      "path": "image/pixart_style.jpeg",
+      "url": "https://raw.githubusercontent.com/adilentiq/test-images/refs/heads/main/image/pixart_style.jpeg"
+    },
+    {
       "path": "image/plate.png",
       "url": "https://raw.githubusercontent.com/adilentiq/test-images/refs/heads/main/image/plate.png"
     },
@@ -1109,6 +1157,14 @@
       "url": "https://raw.githubusercontent.com/adilentiq/test-images/refs/heads/main/image/Square_200x200.png"
     },
     {
+      "path": "image/style.jpeg",
+      "url": "https://raw.githubusercontent.com/adilentiq/test-images/refs/heads/main/image/style.jpeg"
+    },
+    {
+      "path": "image/style2.jpeg",
+      "url": "https://raw.githubusercontent.com/adilentiq/test-images/refs/heads/main/image/style2.jpeg"
+    },
+    {
       "path": "image/text_editing_input.webp",
       "url": "https://raw.githubusercontent.com/adilentiq/test-images/refs/heads/main/image/text_editing_input.webp"
     },
@@ -1135,6 +1191,10 @@
     {
       "path": "image/woman.webp",
       "url": "https://raw.githubusercontent.com/adilentiq/test-images/refs/heads/main/image/woman.webp"
+    },
+    {
+      "path": "image/woman_cat_car.jpg",
+      "url": "https://raw.githubusercontent.com/adilentiq/test-images/refs/heads/main/image/woman_cat_car.jpg"
     },
     {
       "path": "image_background_removal/girl.jpg",
