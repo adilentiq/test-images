@@ -1,0 +1,524 @@
+{
+  "text_to_image": {
+    "simple": [
+      {"positivePrompt": "a cat"},
+      {"positivePrompt": "a tree"},
+      {"positivePrompt": "a building"},
+      {"positivePrompt": "a person"},
+      {"positivePrompt": "a car"}
+    ],
+    "basic_quality": [
+      {"positivePrompt": "a red apple on a wooden table"},
+      {"positivePrompt": "a cat sitting on a windowsill"},
+      {"positivePrompt": "a mountain landscape at sunset"},
+      {"positivePrompt": "a portrait of a young woman smiling"},
+      {"positivePrompt": "a vintage car parked on a street"},
+      {"positivePrompt": "a coffee cup on a desk"},
+      {"positivePrompt": "a flower in a vase"},
+      {"positivePrompt": "a dog running in a park"}
+    ],
+    "moderate_complexity": [
+      {"positivePrompt": "a red sports car in a city street"},
+      {"positivePrompt": "a golden retriever playing in a garden"},
+      {"positivePrompt": "a modern house with glass windows"},
+      {"positivePrompt": "a plate of pasta with tomato sauce"},
+      {"positivePrompt": "a sunset over the ocean"}
+    ],
+    "high_complexity": [
+      {"positivePrompt": "a detailed oil painting of a castle on a hill surrounded by forests"},
+      {"positivePrompt": "a futuristic cityscape at night with neon lights and flying cars"},
+      {"positivePrompt": "an astronaut floating in space with Earth in the background"},
+      {"positivePrompt": "a steampunk robot playing chess in a Victorian library"},
+      {"positivePrompt": "a dragon flying over medieval village, fantasy art style"},
+      {"positivePrompt": "a cozy coffee shop interior with warm lighting, people reading books, rainy day outside"}
+    ],
+    "style_tests": [
+      {"positivePrompt": "a house, photorealistic style"},
+      {"positivePrompt": "a house, watercolor painting style"},
+      {"positivePrompt": "a house, cartoon style"},
+      {"positivePrompt": "a house, pencil sketch style"},
+      {"positivePrompt": "a house, oil painting style"},
+      {"positivePrompt": "a house, anime style"},
+      {"positivePrompt": "a house, cyberpunk style"},
+      {"positivePrompt": "a house, vintage photograph style"}
+    ],
+    "edge_cases": [
+      {"positivePrompt": "nothing"},
+      {"positivePrompt": "abstract chaos"},
+      {"positivePrompt": "the color blue"},
+      {"positivePrompt": "emptiness"},
+      {"positivePrompt": "a photograph of a photograph of a photograph"},
+      {"positivePrompt": "a"},
+      {"positivePrompt": "🎨🖼️🎭"}
+    ]
+  },
+  
+  "image_to_image": {
+    "woman_by_car": {
+      "light_transformation": [
+        {
+          "positivePrompt": "same scene, golden hour lighting",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman-by-car.jpg",
+          "strength": 0.4,
+          "useCase": "Lighting adjustment"
+        },
+        {
+          "positivePrompt": "same image, more vibrant colors",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman-by-car.jpg",
+          "strength": 0.3,
+          "useCase": "Color enhancement"
+        },
+        {
+          "positivePrompt": "same composition, winter season with snow",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman-by-car.jpg",
+          "strength": 0.5,
+          "useCase": "Season change"
+        },
+        {
+          "positivePrompt": "same subject, professional photography",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman-by-car.jpg",
+          "strength": 0.4,
+          "useCase": "Quality enhancement"
+        }
+      ],
+      "style_transfer": [
+        {
+          "positivePrompt": "anime style illustration",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman-by-car.jpg",
+          "strength": 0.6,
+          "useCase": "Anime conversion"
+        },
+        {
+          "positivePrompt": "oil painting style",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman-by-car.jpg",
+          "strength": 0.6,
+          "useCase": "Oil painting"
+        },
+        {
+          "positivePrompt": "watercolor painting style",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman-by-car.jpg",
+          "strength": 0.6,
+          "useCase": "Watercolor"
+        },
+        {
+          "positivePrompt": "black and white photograph, film noir style",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman-by-car.jpg",
+          "strength": 0.5,
+          "useCase": "B&W conversion"
+        },
+        {
+          "positivePrompt": "vintage 1950s photograph",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman-by-car.jpg",
+          "strength": 0.6,
+          "useCase": "Vintage style"
+        },
+        {
+          "positivePrompt": "cartoon illustration style",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman-by-car.jpg",
+          "strength": 0.7,
+          "useCase": "Cartoon style"
+        }
+      ],
+      "subject_modifications": [
+        {
+          "positivePrompt": "woman with blonde hair standing by car",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman-by-car.jpg",
+          "strength": 0.7,
+          "useCase": "Hair color change - blonde"
+        },
+        {
+          "positivePrompt": "woman with red hair standing by car",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman-by-car.jpg",
+          "strength": 0.7,
+          "useCase": "Hair color change - red"
+        },
+        {
+          "positivePrompt": "woman with black hair standing by car",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman-by-car.jpg",
+          "strength": 0.7,
+          "useCase": "Hair color change - black"
+        },
+        {
+          "positivePrompt": "woman with curly hair standing by car",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman-by-car.jpg",
+          "strength": 0.7,
+          "useCase": "Hair style change"
+        },
+        {
+          "positivePrompt": "woman with short hair standing by car",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman-by-car.jpg",
+          "strength": 0.7,
+          "useCase": "Hair length change"
+        },
+        {
+          "positivePrompt": "woman wearing sunglasses standing by car",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman-by-car.jpg",
+          "strength": 0.6,
+          "useCase": "Add sunglasses"
+        },
+        {
+          "positivePrompt": "woman wearing hat standing by car",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman-by-car.jpg",
+          "strength": 0.6,
+          "useCase": "Add hat"
+        },
+        {
+          "positivePrompt": "woman in formal business suit by car",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman-by-car.jpg",
+          "strength": 0.7,
+          "useCase": "Clothing change - formal"
+        },
+        {
+          "positivePrompt": "woman in casual jeans and t-shirt by car",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman-by-car.jpg",
+          "strength": 0.7,
+          "useCase": "Clothing change - casual"
+        },
+        {
+          "positivePrompt": "woman in red dress standing by car",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman-by-car.jpg",
+          "strength": 0.7,
+          "useCase": "Clothing change - dress"
+        }
+      ],
+      "object_removal_addition": [
+        {
+          "positivePrompt": "woman standing on empty street, no car",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman-by-car.jpg",
+          "strength": 0.8,
+          "useCase": "Remove car"
+        },
+        {
+          "positivePrompt": "woman standing alone on street",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman-by-car.jpg",
+          "strength": 0.8,
+          "useCase": "Remove car - minimal prompt"
+        },
+        {
+          "positivePrompt": "woman standing by red sports car",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman-by-car.jpg",
+          "strength": 0.8,
+          "useCase": "Change car type - sports"
+        },
+        {
+          "positivePrompt": "woman standing by vintage classic car",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman-by-car.jpg",
+          "strength": 0.8,
+          "useCase": "Change car type - vintage"
+        },
+        {
+          "positivePrompt": "woman standing by black SUV",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman-by-car.jpg",
+          "strength": 0.8,
+          "useCase": "Change car type - SUV"
+        },
+        {
+          "positivePrompt": "woman standing in front of mountains",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman-by-car.jpg",
+          "strength": 0.9,
+          "useCase": "Background replacement - nature"
+        },
+        {
+          "positivePrompt": "woman by car with city skyline in background",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman-by-car.jpg",
+          "strength": 0.8,
+          "useCase": "Background addition - city"
+        },
+        {
+          "positivePrompt": "woman by car at beach with ocean view",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman-by-car.jpg",
+          "strength": 0.9,
+          "useCase": "Background replacement - beach"
+        }
+      ],
+      "scene_transformation": [
+        {
+          "positivePrompt": "woman by car at sunset with dramatic lighting",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman-by-car.jpg",
+          "strength": 0.7,
+          "useCase": "Time of day - sunset"
+        },
+        {
+          "positivePrompt": "woman by car at night with street lights",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman-by-car.jpg",
+          "strength": 0.8,
+          "useCase": "Time of day - night"
+        },
+        {
+          "positivePrompt": "woman by car in early morning fog",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman-by-car.jpg",
+          "strength": 0.7,
+          "useCase": "Time of day - morning"
+        },
+        {
+          "positivePrompt": "woman by car in rainy weather",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman-by-car.jpg",
+          "strength": 0.7,
+          "useCase": "Weather change - rain"
+        },
+        {
+          "positivePrompt": "woman by car in snowy weather",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman-by-car.jpg",
+          "strength": 0.8,
+          "useCase": "Weather change - snow"
+        },
+        {
+          "positivePrompt": "futuristic cyberpunk scene with woman and car",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman-by-car.jpg",
+          "strength": 0.8,
+          "useCase": "Genre transformation - cyberpunk"
+        },
+        {
+          "positivePrompt": "post-apocalyptic scene with woman and abandoned car",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman-by-car.jpg",
+          "strength": 0.9,
+          "useCase": "Genre transformation - apocalyptic"
+        }
+      ]
+    },
+    
+    "man_beard": {
+      "modifications": [
+        {
+          "positivePrompt": "same person, clean shaven face",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/refs/heads/main/common/man_beard.jpg",
+          "strength": 0.7,
+          "useCase": "Remove beard"
+        },
+        {
+          "positivePrompt": "same person with mustache only",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/refs/heads/main/common/man_beard.jpg",
+          "strength": 0.7,
+          "useCase": "Change beard style"
+        },
+        {
+          "positivePrompt": "same person wearing glasses",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/refs/heads/main/common/man_beard.jpg",
+          "strength": 0.5,
+          "useCase": "Add glasses"
+        },
+        {
+          "positivePrompt": "same person with different hair color",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/refs/heads/main/common/man_beard.jpg",
+          "strength": 0.6,
+          "useCase": "Change hair color"
+        }
+      ],
+      "style_transfer": [
+        {
+          "positivePrompt": "same person, anime style",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/refs/heads/main/common/man_beard.jpg",
+          "strength": 0.7,
+          "useCase": "Anime style"
+        },
+        {
+          "positivePrompt": "same person, oil painting portrait",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/refs/heads/main/common/man_beard.jpg",
+          "strength": 0.6,
+          "useCase": "Oil painting"
+        },
+        {
+          "positivePrompt": "same person, cartoon style",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/refs/heads/main/common/man_beard.jpg",
+          "strength": 0.7,
+          "useCase": "Cartoon style"
+        }
+      ]
+    },
+    
+    "abraham_lincoln": {
+      "modifications": [
+        {
+          "positivePrompt": "same person in modern clothing",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/refs/heads/main/common/abraham_lincon.png",
+          "strength": 0.7,
+          "useCase": "Modernize clothing"
+        },
+        {
+          "positivePrompt": "colorized photograph, realistic colors",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/refs/heads/main/common/abraham_lincon.png",
+          "strength": 0.5,
+          "useCase": "Colorization"
+        },
+        {
+          "positivePrompt": "same person smiling",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/refs/heads/main/common/abraham_lincon.png",
+          "strength": 0.6,
+          "useCase": "Change expression"
+        }
+      ],
+      "style_transfer": [
+        {
+          "positivePrompt": "oil painting portrait style",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/refs/heads/main/common/abraham_lincon.png",
+          "strength": 0.6,
+          "useCase": "Oil painting"
+        },
+        {
+          "positivePrompt": "modern digital art portrait",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/refs/heads/main/common/abraham_lincon.png",
+          "strength": 0.7,
+          "useCase": "Digital art"
+        }
+      ]
+    },
+    
+    "frog": {
+      "modifications": [
+        {
+          "positivePrompt": "same frog on a lily pad",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/refs/heads/main/common/frog.jpeg",
+          "strength": 0.6,
+          "useCase": "Environment change"
+        },
+        {
+          "positivePrompt": "same frog in rainforest environment",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/refs/heads/main/common/frog.jpeg",
+          "strength": 0.7,
+          "useCase": "Background change"
+        },
+        {
+          "positivePrompt": "blue colored frog",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/refs/heads/main/common/frog.jpeg",
+          "strength": 0.6,
+          "useCase": "Color change"
+        }
+      ],
+      "style_transfer": [
+        {
+          "positivePrompt": "cartoon illustration of the frog",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/refs/heads/main/common/frog.jpeg",
+          "strength": 0.7,
+          "useCase": "Cartoon style"
+        },
+        {
+          "positivePrompt": "watercolor painting of frog",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/refs/heads/main/common/frog.jpeg",
+          "strength": 0.6,
+          "useCase": "Watercolor"
+        },
+        {
+          "positivePrompt": "realistic 3D render of frog",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/refs/heads/main/common/frog.jpeg",
+          "strength": 0.7,
+          "useCase": "3D render"
+        }
+      ]
+    },
+    
+    "girl_redhead": {
+      "modifications": [
+        {
+          "positivePrompt": "same person with blonde hair",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/refs/heads/main/common/girl_redhead_face_only.webp",
+          "strength": 0.6,
+          "useCase": "Hair color - blonde"
+        },
+        {
+          "positivePrompt": "same person with black hair",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/refs/heads/main/common/girl_redhead_face_only.webp",
+          "strength": 0.6,
+          "useCase": "Hair color - black"
+        },
+        {
+          "positivePrompt": "same person with brown hair",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/refs/heads/main/common/girl_redhead_face_only.webp",
+          "strength": 0.6,
+          "useCase": "Hair color - brown"
+        },
+        {
+          "positivePrompt": "same person with makeup",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/refs/heads/main/common/girl_redhead_face_only.webp",
+          "strength": 0.5,
+          "useCase": "Add makeup"
+        },
+        {
+          "positivePrompt": "same person wearing earrings",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/refs/heads/main/common/girl_redhead_face_only.webp",
+          "strength": 0.4,
+          "useCase": "Add earrings"
+        }
+      ],
+      "style_transfer": [
+        {
+          "positivePrompt": "anime style portrait",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/refs/heads/main/common/girl_redhead_face_only.webp",
+          "strength": 0.7,
+          "useCase": "Anime style"
+        },
+        {
+          "positivePrompt": "oil painting portrait",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/refs/heads/main/common/girl_redhead_face_only.webp",
+          "strength": 0.6,
+          "useCase": "Oil painting"
+        },
+        {
+          "positivePrompt": "pencil sketch portrait",
+          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/refs/heads/main/common/girl_redhead_face_only.webp",
+          "strength": 0.6,
+          "useCase": "Pencil sketch"
+        }
+      ]
+    },
+    
+    "generic_tests": [
+      {
+        "positivePrompt": "enhance quality and sharpness",
+        "seedImage": "<any_test_image>",
+        "strength": 0.3,
+        "useCase": "Quality enhancement"
+      },
+      {
+        "positivePrompt": "dramatic cinematic lighting",
+        "seedImage": "<any_test_image>",
+        "strength": 0.5,
+        "useCase": "Lighting change"
+      },
+      {
+        "positivePrompt": "vintage film aesthetic",
+        "seedImage": "<any_test_image>",
+        "strength": 0.6,
+        "useCase": "Vintage filter"
+      },
+      {
+        "positivePrompt": "high contrast black and white",
+        "seedImage": "<any_test_image>",
+        "strength": 0.6,
+        "useCase": "B&W conversion"
+      }
+    ]
+  },
+  
+  "negative_prompt_tests": [
+    {
+      "positivePrompt": "a beautiful landscape",
+      "negativePrompt": "blurry, low quality, distorted",
+      "useCase": "Quality control"
+    },
+    {
+      "positivePrompt": "portrait of a person",
+      "negativePrompt": "extra fingers, deformed hands, bad anatomy",
+      "useCase": "Anatomy correction"
+    },
+    {
+      "positivePrompt": "a city street",
+      "negativePrompt": "watermark, text, signature",
+      "useCase": "Clean output"
+    }
+  ],
+  
+  "metadata": {
+    "version": "1.0",
+    "description": "Comprehensive test prompts for Stable Diffusion model QA testing",
+    "categories": {
+      "text_to_image": "Prompts for generating images from text descriptions",
+      "image_to_image": "Prompts for transforming existing images",
+      "negative_prompt_tests": "Examples of negative prompts for quality control"
+    },
+    "strength_guidelines": {
+      "light": "0.3-0.5 - Subtle changes, preserve most of original",
+      "medium": "0.5-0.7 - Noticeable changes, balanced transformation",
+      "heavy": "0.7-0.9 - Major changes, significant transformation"
+    }
+  }
+}
