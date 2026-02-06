@@ -64,142 +64,58 @@
     "woman_by_car": {
       "light_transformation": [
         {
-          "positivePrompt": "same scene, golden hour lighting",
+          "positivePrompt": "woman, cat, car, golden hour lighting",
           "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman_cat_car.jpg",
           "strength": 0.4,
           "useCase": "Lighting adjustment"
         },
         {
-          "positivePrompt": "same image, more vibrant colors",
+          "positivePrompt": "woman, cat, car, more vibrant colors",
           "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman_cat_car.jpg",
           "strength": 0.3,
           "useCase": "Color enhancement"
-        },
-        {
-          "positivePrompt": "same composition, winter season with snow",
-          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman_cat_car.jpg",
-          "strength": 0.5,
-          "useCase": "Season change"
-        },
-        {
-          "positivePrompt": "same subject, professional photography",
-          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman_cat_car.jpg",
-          "strength": 0.4,
-          "useCase": "Quality enhancement"
         }
       ],
       "style_transfer": [
         {
-          "positivePrompt": "anime style illustration",
+          "positivePrompt": "woman, cat, car, anime style illustration",
           "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman_cat_car.jpg",
           "strength": 0.6,
           "useCase": "Anime conversion"
         },
         {
-          "positivePrompt": "oil painting style",
+          "positivePrompt": "woman, cat, car, oil painting style",
           "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman_cat_car.jpg",
           "strength": 0.6,
           "useCase": "Oil painting"
-        },
-        {
-          "positivePrompt": "watercolor painting style",
-          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman_cat_car.jpg",
-          "strength": 0.6,
-          "useCase": "Watercolor"
-        },
-        {
-          "positivePrompt": "black and white photograph, film noir style",
-          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman_cat_car.jpg",
-          "strength": 0.5,
-          "useCase": "B&W conversion"
-        },
-        {
-          "positivePrompt": "vintage 1950s photograph",
-          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman_cat_car.jpg",
-          "strength": 0.6,
-          "useCase": "Vintage style"
-        },
-        {
-          "positivePrompt": "cartoon illustration style",
-          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman_cat_car.jpg",
-          "strength": 0.7,
-          "useCase": "Cartoon style"
         }
       ],
       "subject_modifications": [
         {
-          "positivePrompt": "woman with blonde hair standing by car",
+          "positivePrompt": "woman, cat, car, blonde hair",
           "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman_cat_car.jpg",
           "strength": 0.7,
           "useCase": "Hair color change - blonde"
         },
         {
-          "positivePrompt": "woman with red hair standing by car",
+          "positivePrompt": "woman, cat, car, red hair",
           "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman_cat_car.jpg",
           "strength": 0.7,
           "useCase": "Hair color change - red"
-        },
-        {
-          "positivePrompt": "woman with black hair standing by car",
-          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman_cat_car.jpg",
-          "strength": 0.7,
-          "useCase": "Hair color change - black"
-        },
-        {
-          "positivePrompt": "woman with curly hair standing by car",
-          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman_cat_car.jpg",
-          "strength": 0.7,
-          "useCase": "Hair style change"
-        },
-        {
-          "positivePrompt": "woman with short hair standing by car",
-          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman_cat_car.jpg",
-          "strength": 0.7,
-          "useCase": "Hair length change"
-        },
-        {
-          "positivePrompt": "woman wearing sunglasses standing by car",
-          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman_cat_car.jpg",
-          "strength": 0.6,
-          "useCase": "Add sunglasses"
-        },
-        {
-          "positivePrompt": "woman wearing hat standing by car",
-          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman_cat_car.jpg",
-          "strength": 0.6,
-          "useCase": "Add hat"
-        },
-        {
-          "positivePrompt": "woman in formal business suit by car",
-          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman_cat_car.jpg",
-          "strength": 0.7,
-          "useCase": "Clothing change - formal"
-        },
-        {
-          "positivePrompt": "woman in casual jeans and t-shirt by car",
-          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman_cat_car.jpg",
-          "strength": 0.7,
-          "useCase": "Clothing change - casual"
-        },
-        {
-          "positivePrompt": "woman in red dress standing by car",
-          "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman_cat_car.jpg",
-          "strength": 0.7,
-          "useCase": "Clothing change - dress"
         }
       ],
       "object_removal_addition": [
         {
-          "positivePrompt": "woman standing on empty street, no car",
+          "positivePrompt": "woman, cat, empty street, no car",
           "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman_cat_car.jpg",
           "strength": 0.8,
           "useCase": "Remove car"
         },
         {
-          "positivePrompt": "woman standing alone on street",
+          "positivePrompt": "woman, cat, car, city skyline in background",
           "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman_cat_car.jpg",
           "strength": 0.8,
-          "useCase": "Remove car - minimal prompt"
+          "useCase": "Background addition - city"
         },
         {
           "positivePrompt": "woman standing by red sports car",
@@ -240,13 +156,13 @@
       ],
       "scene_transformation": [
         {
-          "positivePrompt": "woman by car at sunset with dramatic lighting",
+          "positivePrompt": "woman, cat, car, sunset, dramatic lighting",
           "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman_cat_car.jpg",
           "strength": 0.7,
           "useCase": "Time of day - sunset"
         },
         {
-          "positivePrompt": "woman by car at night with street lights",
+          "positivePrompt": "woman, cat, car, night, street lights",
           "seedImage": "https://media.githubusercontent.com/media/adilentiq/test-images/main/image/woman_cat_car.jpg",
           "strength": 0.8,
           "useCase": "Time of day - night"
