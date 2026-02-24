@@ -419,6 +419,20 @@
       }
     ]
   },
+  "reference_image_tests": [
+    {
+      "positivePrompt": "same scene with different lighting",
+      "inputs": { "referenceImages": ["https://media.githubusercontent.com/media/adilentiq/test-images/refs/heads/main/common/woman_cat_car.jpg"] }
+    },
+    {
+      "positivePrompt": "Transform into photorealistic 3D render, add proper lighting and shadows, realistic materials and textures, maintain exact proportions and design from sketch, product visualization quality",
+      "inputs": { "referenceImages": ["https://media.githubusercontent.com/media/adilentiq/test-images/refs/heads/main/common/woman_cat_car.jpg"] } 
+    },
+    {
+      "positivePrompt": "same scene with different background",
+      "inputs": { "referenceImages": ["https://media.githubusercontent.com/media/adilentiq/test-images/refs/heads/main/common/woman_cat_car.jpg"] }
+    }
+  ],
   
   "negative_prompt_tests": [
     {
