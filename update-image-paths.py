@@ -67,7 +67,7 @@ def generate_entries(files, root_dir):
         
         entry = {
             "path": path_str,
-            "url": f"{GITHUB_BASE_URL}/{path_str}"
+            "url": f"https://media.githubusercontent.com/media/adilentiq/test-images/main/{path_str}"
         }
         entries.append(entry)
     
