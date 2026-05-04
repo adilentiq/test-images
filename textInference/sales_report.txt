@@ -1,0 +1,21 @@
+Q1 2026 Sales Report
+Regional Sales Summary — January through March
+
+┌─────────────────┬────────┬───────────┬────────────┬───────────────┬─────────────┐
+│ Sales Rep       │ Region │ Category  │ Units Sold │ Unit Price($) │   Total ($) │
+├─────────────────┼────────┼───────────┼────────────┼───────────────┼─────────────┤
+│ Olivia Chen     │ North  │ Software  │         42 │      1,200.00 │  50,400.00  │
+│ Marcus Rivera   │ South  │ Hardware  │         17 │        850.00 │  14,450.00  │
+│ Priya Patel     │ East   │ Software  │         63 │      1,200.00 │  75,600.00  │
+│ Tom Nakamura    │ West   │ Services  │         29 │        975.00 │  28,275.00  │
+│ Sara Okonkwo    │ North  │ Hardware  │         38 │        850.00 │  32,300.00  │
+│ James Liu       │ East   │ Services  │         51 │        975.00 │  49,725.00  │
+│ Ana Ferreira    │ South  │ Software  │         24 │      1,200.00 │  28,800.00  │
+│ Derek Hassan    │ West   │ Hardware  │         45 │        850.00 │  38,250.00  │
+│ Chloe Martin    │ North  │ Services  │         33 │        975.00 │  32,175.00  │
+│ Raj Sharma      │ East   │ Software  │         57 │      1,200.00 │  68,400.00  │
+├─────────────────┴────────┴───────────┴────────────┼───────────────┼─────────────┤
+│                                       Grand Total │               │ 418,375.00  │
+└───────────────────────────────────────────────────┴───────────────┴─────────────┘
+
+10 sales representatives | Total revenue: $418,375.00
