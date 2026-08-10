@@ -1,0 +1,1 @@
+A cinematic aerial shot of a dense forest at dawn, mist rolling between ancient trees, golden light breaking through the canopy, birds taking flight in slow motion, 4K, hyperrealistic, photographic quality.
